@@ -1,0 +1,122 @@
+body {
+    background-image: url(images_CSS/Background.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(2px);
+  }
+@font-face {
+    font-family: "Titre";
+    src: url("Polices/manga_temple/mangatb.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sous-Titre";
+    src: url("Polices/manga_temple/mangat.ttf") format("truetype");
+}
+h1 {
+    font-family: 'titre', sans-serif;
+    /* Autres styles de texte pour le titre, comme la taille, la couleur, etc. */
+    font-size: 50px;
+  }
+h2 {
+    font-family: 'Sous-Titre', sans-serif; 
+  }
+
+  .conteneur_nom {
+    width: 1157px; /* Largeur du conteneur (peut être en pixels, pourcentage, etc.) */
+    margin: 0 auto; /* Centrer horizontalement le conteneur */
+    padding: 20px; /* Marge interne du conteneur */
+    border: 1px solid #000; /* Bordure pour délimiter le conteneur */
+    background-image: url(images_CSS/Nuage.jpg);
+    background-position: center 0px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0; /* Couleur de fond du conteneur */
+    display: flex;
+    justify-content: center; /* Pour le centrage horizontal */
+    align-items: center; /* Pour le centrage vertical */
+    
+  }
+  .conteneur_infoperso {
+    width: 1157px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #000; 
+    background-color: #f0f0f0; 
+    background-image: url(images_CSS/Nuage.jpg);
+    background-position: center -155px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .conteneur_objectif {
+    width: 1157px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #000; 
+    background-color: #f0f0f0; 
+    background-image: url(images_CSS/Nuage.jpg);
+    background-position: center -350px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .conteneur_expepro_etudes_compe {
+    height: 100%;
+    width: 1157px; 
+    margin: 0 auto; /* Centrer horizontalement le conteneur */
+    padding: 20px; /* Marge interne du conteneur */
+    border: 1px solid #000; /* Bordure pour délimiter le conteneur */
+    background-color: #f0f0f0; /* Couleur de fond du conteneur */
+    background-image: url(images_CSS/Nuage.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+  .conteneur_liens {
+    width: 1157px; 
+    margin: 0 auto; /* Centrer horizontalement le conteneur */
+    padding: 20px; /* Marge interne du conteneur */
+    border: 1px solid #000; 
+    background-color: #f0f0f0; 
+  }
+img {
+    width: 70px; /* Largeur souhaitée */
+    height: 70px; /* Hauteur souhaitée */
+  }
+#images {
+   display: flex;
+   justify-content: space-between;
+  }
+
+#mes_competences {
+    display: flex;
+    justify-content: center;
+   }
+#Etudes {
+    display: flex;
+    justify-content: center;
+   }
+#listes_Etudes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+#Expepro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+#Telechargement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   }
+#adress {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+
+
